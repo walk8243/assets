@@ -1,0 +1,33 @@
+{
+  "name": "@walk8243/assets",
+  "version": "1.0.0",
+  "description": "複数のライブラリをモノレポで管理するサンプル",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walk8243/assets.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "walk8243",
+    "email": "walk8243@gmail.com",
+    "url": "https://walk8243.xyz"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walk8243/assets/issues"
+  },
+  "homepage": "https://github.com/walk8243/assets#readme",
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "@tsconfig/recommended": "^1.0.8",
+    "@types/node": "^22.15.23",
+    "typescript": "^5.8.3"
+  }
+}
