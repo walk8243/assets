@@ -1,0 +1,15 @@
+{
+	"name": "xyz",
+	"description": "description",
+	"scripts": {
+		"build": "echo 'build'",
+		"lint": "echo 'lint'",
+		"test": "echo 'test"
+	},
+	"version": "1.0.0",
+	"main": "index.js",
+	"devDependencies": {},
+	"keywords": [],
+	"author": "walk8243 <walk8243@gmail.com> (https://walk8243.xyz/)",
+	"license": "MIT"
+}

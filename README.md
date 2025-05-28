@@ -17,3 +17,9 @@ npm init -w greet
 ```
 
 initが実行された結果、不要なものも追加されてそうなので、もう少し整理が必要そう。
+
+一先ず、以下のコマンド一発で作れるようになった。
+
+```sh
+npm run create-workspace xyz
+```
