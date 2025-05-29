@@ -1,7 +1,13 @@
 # assets
 複数のライブラリをモノレポで管理するサンプル
 
-## `create-app` を作ってみる。
+## workspaceの追加
+
+```sh
+npm init -w <name> @walk8243/greet .
+```
+
+## `create-app` を作ってみる
 
 https://github.com/uetchy/create-create-app
 
@@ -9,17 +15,17 @@ https://github.com/uetchy/create-create-app
 npx create-create-app greet
 ```
 
-後は以下でworkspaceの追加ができそう。
+ビルドすればcreateできる。
 
 ```sh
-node ./create-greet/dist/cli.js greet
-npm init -w greet
+cd create-greet
+npm run build
+node ./dist/cli.js <name>
 ```
 
-initが実行された結果、不要なものも追加されてそうなので、もう少し整理が必要そう。
-
-一先ず、以下のコマンド一発で作れるようになった。
+親パッケージにインストールすることで、workspaceの追加にも使える。
 
 ```sh
-npm run create-workspace xyz
+npm i create-greet -D
+npm init -w greet greet .
 ```
